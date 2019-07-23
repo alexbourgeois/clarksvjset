@@ -1,0 +1,617 @@
+{
+  "metaData": {
+    "version": "1.6.2",
+    "versionNumber": 67074
+  },
+  "moduleManager": {
+    "items": [
+      {
+        "niceName": "MIDI",
+        "type": "MIDI",
+        "scripts": {
+        },
+        "params": {
+        },
+        "values": {
+        }
+      },
+      {
+        "niceName": "OSC",
+        "type": "OSC",
+        "scripts": {
+        },
+        "params": {
+          "containers": {
+            "oscinput": {
+            },
+            "oscoutputs": {
+              "items": [
+                {
+                  "niceName": "OSC Output",
+                  "type": "BaseItem"
+                }
+              ]
+            }
+          }
+        },
+        "values": {
+        },
+        "input": {
+        },
+        "outputs": {
+          "items": [
+            {
+              "niceName": "OSC Output",
+              "type": "BaseItem"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "stateManager": {
+    "items": [
+      {
+        "parameters": [
+          {
+            "value": [
+              -290.0,
+              -163.0
+            ],
+            "controlMode": 0,
+            "controlAddress": "/viewUIPosition"
+          },
+          {
+            "value": true,
+            "controlMode": 0,
+            "controlAddress": "/active"
+          }
+        ],
+        "niceName": "PrefabToggle",
+        "type": "State",
+        "processors": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                }
+              ],
+              "niceName": "TogglePrefab0",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0,
+                                "controlMode": 0,
+                                "controlAddress": "/_1"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 0,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab0/consequences_true/consequence/command/arguments/_1/_1"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    20.0,
+                    20.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab0 1",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 0,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab01/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    40.0,
+                    40.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab0 2",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 0,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab02/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    60.0,
+                    60.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab0 3",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 0,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab03/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    80.0,
+                    80.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab0 4",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 0,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab04/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    100.0,
+                    100.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab0 5",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 0,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab05/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    120.0,
+                    120.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab0 6",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 0,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab06/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

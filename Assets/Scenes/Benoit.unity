@@ -152,9 +152,9 @@ MonoBehaviour:
   _inputType: 0
   _skinnedMeshList: []
   _pointCloudsList:
-  - {fileID: 11400000, guid: 0e1ef457ba986224992504a1086272f6, type: 2}
+  - {fileID: 11400000, guid: 1f0d1c9dc5bbdb04692ce7660da91890, type: 2}
   _particleMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-  _particleScale: {x: 0.05, y: 0.05, z: 0.05}
+  _particleScale: {x: 0.14, y: 0.05, z: 0.05}
   _particleMaterial: {fileID: 2100000, guid: 5306fa9f5de6edd4fbf973e275b586aa, type: 2}
   _bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -162,17 +162,17 @@ MonoBehaviour:
   _randomSeed: 0
   _sourcesList: []
   _currentInputIndex: 0
-  _enableInitUpdater: 1
-  _initMassMinMax: {x: 0.5, y: 1.5}
+  _enableInitUpdater: 0
+  _initMassMinMax: {x: 1, y: 1}
   _initLocalScaleMinMax: {x: 1, y: 1}
   _initBouncinessMinMax: {x: 1, y: 1}
   _initCollisionDistance: 0
-  _initMetallicMinMax: {x: 0, y: 1}
-  _initSmoothnessMinMax: {x: 0, y: 1}
+  _initMetallicMinMax: {x: 0, y: 0}
+  _initSmoothnessMinMax: {x: 0.5, y: 1}
   _initGradient:
     serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key0: {r: 1, g: 0, b: 1, a: 1}
+    key1: {r: 0, g: 1, b: 1, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -211,11 +211,11 @@ MonoBehaviour:
   _enableGravityUpdater: 0
   _gravityUseGlobal: 0
   _gravityDirection: {x: 0, y: -0.1, z: 0}
-  _enableNoiseFieldUpdater: 0
-  _noiseFieldUseGlobal: 0
-  _noiseFieldPositionFrequency: 1
-  _noiseFieldPositionIntensity: {x: 0.3, y: 0.3, z: 0.3}
-  _noiseFieldPositionSpeed: {x: 0.3, y: 0.3, z: 0.3}
+  _enableNoiseFieldUpdater: 1
+  _noiseFieldUseGlobal: 1
+  _noiseFieldPositionFrequency: 0.1
+  _noiseFieldPositionIntensity: {x: 0.3, y: 1, z: 0.3}
+  _noiseFieldPositionSpeed: {x: 1, y: 1, z: 1}
   _enableAttractionUpdater: 0
   _enableDipolarUpdater: 0
   _enableVortexUpdater: 0
@@ -223,8 +223,8 @@ MonoBehaviour:
   _enableRevolutionUpdater: 0
   _enableColliderUpdater: 0
   _collidersList: []
-  _enableParticleEmissionUpdater: 0
-  _particleEmissionLifetime: 5
+  _enableParticleEmissionUpdater: 1
+  _particleEmissionLifetime: 15
   _particleEmissionBirthDuration: 0.5
   _particleEmissionDeathDuration: 0.5
   _enableOriginAttractionUpdater: 0
@@ -252,36 +252,36 @@ MonoBehaviour:
   _axisConstraintFreezeX: 0
   _axisConstraintFreezeY: 0
   _axisConstraintFreezeZ: 0
-  _enableLightEmissionUpdater: 0
-  _lightEmissionClampNegative: 0
-  _lightEmissionUseGlobal: 0
-  _lightEmissionColor: {r: 1, g: 1, b: 1, a: 1}
-  _lightEmissionProbability: 0.01
+  _enableLightEmissionUpdater: 1
+  _lightEmissionClampNegative: 1
+  _lightEmissionUseGlobal: 1
+  _lightEmissionColor: {r: 0.67441005, g: 0.10500002, b: 1, a: 1}
+  _lightEmissionProbability: 0.056
   _lightEmissionRandomOffset: 0
   _lightEmissionRandomOffsetFrequency: 0
   _lightEmissionRandomOffsetPhase: 0
-  _lightEmissionIntensity: 10
+  _lightEmissionIntensity: 1.75
   _lightEmissionOffset: 0
-  _lightEmissionFrequency: 0
+  _lightEmissionFrequency: 0.72
   _lightEmissionPhase: 0
-  _lightEmissionJitter: 0
-  _enableScalerUpdater: 0
-  _scalerUseGlobal: 0
-  _scalerScale: {x: 1, y: 1, z: 1}
-  _scalerNoiseFrequency: 0
-  _scalerNoiseIntensity: 1
-  _scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  _lightEmissionJitter: 33.48
+  _enableScalerUpdater: 1
+  _scalerUseGlobal: 1
+  _scalerScale: {x: 2, y: 0, z: 0}
+  _scalerNoiseFrequency: 0.5
+  _scalerNoiseIntensity: 2
+  _scalerNoiseSpeed: {x: 0, y: 1, z: 1}
   _enableOrientationUpdater: 0
   _orientationUseSources: 0
   _orientationAxis: {x: 0, y: 1, z: 0}
   _orientationIntensity: 1
   _enableMaterialUpdater: 0
-  _enableParticleUpdater: 0
+  _enableParticleUpdater: 1
   _particleUpdateUseSources: 0
-  _particleUpdateDeceleration: 0.98
+  _particleUpdateDeceleration: 0.99
   _particleUpdateRotationSpeed: 0.1
-  _particleUpdateAlignWithVelocity: 0
-  _particleUpdateAlignmentVelocityStrength: 0
+  _particleUpdateAlignWithVelocity: 1
+  _particleUpdateAlignmentVelocityStrength: 1
   _particleUpdateAlignWithAxis: 0
   _particleUpdateAlignmentAxis: {x: 0, y: 1, z: 0}
   _particleUpdateAlignmentAxisStrength: 0
@@ -421,7 +421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sharedProfile: {fileID: 11400000, guid: d99bc29b9fc961146a136c3b2d95396c, type: 2}
-  isGlobal: 0
+  isGlobal: 1
   blendDistance: 0
   weight: 1
   priority: 0
@@ -451,6 +451,8 @@ GameObject:
   - component: {fileID: 2031533447}
   - component: {fileID: 2031533446}
   - component: {fileID: 2031533449}
+  - component: {fileID: 2031533451}
+  - component: {fileID: 2031533450}
   m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -516,7 +518,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031533445}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.049813706, y: -0, z: -0, w: 0.9987585}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -583,3 +585,44 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!1183024399 &2031533450
+LookAtConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031533445}
+  m_Enabled: 1
+  m_Weight: 1
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationOffset: {x: 0, y: 0, z: 0}
+  m_Roll: 0
+  m_WorldUpObject: {fileID: 0}
+  m_UseUpObject: 0
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 484050672}
+    weight: 1
+--- !u!114 &2031533451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031533445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ddbe12367a4899b011d43ef41f357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enablePositionNoise: 1
+  _enableRotationNoise: 0
+  _positionFrequency: 0.1
+  _rotationFrequency: 0.2
+  _positionAmplitude: 5
+  _rotationAmplitude: 10
+  _positionScale: {x: 1, y: 1, z: 1}
+  _rotationScale: {x: 1, y: 1, z: 0}
+  _positionFractalLevel: 2
+  _rotationFractalLevel: 3

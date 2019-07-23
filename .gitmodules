@@ -4,3 +4,6 @@
 [submodule "Assets/Librairies/Unity-Noises"]
 	path = Assets/Librairies/Unity-Noises
 	url = https://github.com/theoriz/unity-noises
+[submodule "Assets/Plugins/GenUI"]
+	path = Assets/Plugins/GenUI
+	url = https://github.com/theoriz/genui

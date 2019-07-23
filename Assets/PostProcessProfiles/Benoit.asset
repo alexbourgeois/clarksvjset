@@ -56,7 +56,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -161,10 +161,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 4.99
+    value: 5
   threshold:
     overrideState: 1
-    value: 0.4
+    value: 0
   softKnee:
     overrideState: 0
     value: 0.5
@@ -184,12 +184,12 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   dirtTexture:
-    overrideState: 0
-    value: {fileID: 0}
+    overrideState: 1
+    value: {fileID: 8600000, guid: b2d8b2b32645cbf4181110c9a10e4dd1, type: 2}
     defaultState: 1
   dirtIntensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 0.46
 --- !u!114 &5513500054472183375
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1548,7 +1548,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 1.27
+    value: 1.57
   color:
     overrideState: 0
     value: {r: 0, g: 0, b: 0, a: 1}

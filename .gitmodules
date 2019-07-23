@@ -1,0 +1,6 @@
+[submodule "Assets/Librairies/KAPPS"]
+	path = Assets/Librairies/KAPPS
+	url = https://bitbucket.org/lyptik/kapps
+[submodule "Assets/Librairies/Unity-Noises"]
+	path = Assets/Librairies/Unity-Noises
+	url = https://github.com/theoriz/unity-noises

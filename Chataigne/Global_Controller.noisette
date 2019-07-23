@@ -25,7 +25,7 @@
         "values": {
           "parameters": [
             {
-              "value": 0,
+              "value": 127,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -39,7 +39,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 37,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -53,7 +53,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 127,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -68,6 +68,20 @@
             },
             {
               "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc21",
+              "type": "Integer",
+              "niceName": "[1] CC21",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC21",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 127,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -151,7 +165,35 @@
               "feedbackOnly": false
             },
             {
-              "value": 37,
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc37",
+              "type": "Integer",
+              "niceName": "[1] CC37",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC37",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc38",
+              "type": "Integer",
+              "niceName": "[1] CC38",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC38",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 127,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -175,6 +217,20 @@
               "customizable": false,
               "removable": true,
               "description": "Channel 1 : CC49",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 127,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc5",
+              "type": "Integer",
+              "niceName": "[1] CC5",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC5",
               "hideInEditor": false,
               "feedbackOnly": false
             }
@@ -792,6 +848,226 @@
               },
               "consequencesOff": {
               }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    100.0,
+                    100.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab 5",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ],
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlMode": 0,
+                        "controlAddress": "/isValid"
+                      },
+                      {
+                        "value": "/modules/midi/values/_1_cc37",
+                        "controlMode": 0,
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": "=",
+                          "controlMode": 0,
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 127,
+                          "controlMode": 0,
+                          "controlAddress": "/reference"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 5,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 5,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab5/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    120.0,
+                    120.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab 6",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ],
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlMode": 0,
+                        "controlAddress": "/isValid"
+                      },
+                      {
+                        "value": "/modules/midi/values/_1_cc38",
+                        "controlMode": 0,
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": "=",
+                          "controlMode": 0,
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 127,
+                          "controlMode": 0,
+                          "controlAddress": "/reference"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 6,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 6,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab6/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
             }
           ]
         }
@@ -827,7 +1103,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 2.0,
                   "controlMode": 0,
                   "controlAddress": "/outValue"
                 }
@@ -849,7 +1125,7 @@
                   {
                     "parameters": [
                       {
-                        "value": 0.0,
+                        "value": 2.0,
                         "controlMode": 0,
                         "controlAddress": "/out"
                       }
@@ -902,7 +1178,7 @@
                           {
                             "parameters": [
                               {
-                                "value": 0.0,
+                                "value": 2.0,
                                 "controlMode": 0,
                                 "controlAddress": "/_1"
                               },
@@ -915,7 +1191,7 @@
                             "niceName": "#1",
                             "type": "Float",
                             "param": {
-                              "value": 0.0,
+                              "value": 2.0,
                               "controlMode": 0,
                               "controlAddress": "/states/divers/processors/setLightIntensity/outputs/mappingOutput/command/arguments/_1/_1"
                             }
@@ -938,7 +1214,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-                  "value": 5.0,
+                  "value": 1.456692934036255,
                   "controlMode": 0,
                   "controlAddress": "/outValue"
                 }
@@ -960,7 +1236,7 @@
                   {
                     "parameters": [
                       {
-                        "value": 5.0,
+                        "value": 1.456692934036255,
                         "controlMode": 0,
                         "controlAddress": "/out"
                       }
@@ -1013,7 +1289,7 @@
                           {
                             "parameters": [
                               {
-                                "value": 5.0,
+                                "value": 1.456692934036255,
                                 "controlMode": 0,
                                 "controlAddress": "/newFloatParameter"
                               },
@@ -1026,7 +1302,7 @@
                             "niceName": "#1",
                             "type": "Float",
                             "param": {
-                              "value": 5.0,
+                              "value": 1.456692934036255,
                               "controlMode": 0,
                               "controlAddress": "/states/divers/processors/setBloomIntensity/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
                             }
@@ -1049,7 +1325,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-                  "value": 0.0,
+                  "value": 10.0,
                   "controlMode": 0,
                   "controlAddress": "/outValue"
                 }
@@ -1071,7 +1347,7 @@
                   {
                     "parameters": [
                       {
-                        "value": 0.0,
+                        "value": 10.0,
                         "controlMode": 0,
                         "controlAddress": "/out"
                       }
@@ -1124,7 +1400,7 @@
                           {
                             "parameters": [
                               {
-                                "value": 0.0,
+                                "value": 10.0,
                                 "controlMode": 0,
                                 "controlAddress": "/newFloatParameter"
                               },
@@ -1137,7 +1413,7 @@
                             "niceName": "#1",
                             "type": "Float",
                             "param": {
-                              "value": 0.0,
+                              "value": 10.0,
                               "controlMode": 0,
                               "controlAddress": "/states/divers/processors/setBrownianMotionPositionIntensityValue/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
                             }
@@ -1160,7 +1436,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-                  "value": 0.0,
+                  "value": 10.0,
                   "controlMode": 0,
                   "controlAddress": "/outValue"
                 }
@@ -1182,7 +1458,7 @@
                   {
                     "parameters": [
                       {
-                        "value": 0.0,
+                        "value": 10.0,
                         "controlMode": 0,
                         "controlAddress": "/out"
                       }
@@ -1235,7 +1511,7 @@
                           {
                             "parameters": [
                               {
-                                "value": 0.0,
+                                "value": 10.0,
                                 "controlMode": 0,
                                 "controlAddress": "/newFloatParameter"
                               },
@@ -1248,7 +1524,7 @@
                             "niceName": "#1",
                             "type": "Float",
                             "param": {
-                              "value": 0.0,
+                              "value": 10.0,
                               "controlMode": 0,
                               "controlAddress": "/states/divers/processors/setBrownianMotionRotationIntensityValue/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
                             }

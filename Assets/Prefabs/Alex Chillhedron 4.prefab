@@ -1,0 +1,1038 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1581914491112019021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2405475578837001902}
+  - component: {fileID: 8944920998303245688}
+  m_Layer: 0
+  m_Name: ChillLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2405475578837001902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581914491112019021}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7068517250560385708}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8944920998303245688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581914491112019021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba005b6d48e15f45bac54ba31b0174f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updater: 6
+  particleSystemList:
+  - {fileID: 7068517250560385709}
+  active: 1
+  infiniteInX: 0
+  infiniteInY: 0
+  infiniteInZ: 0
+  radius: 12.89
+  falloff: 1
+  intensity: 4.1
+  useTransformRotation: 0
+  gravityDirection: {x: 0, y: -1, z: 0}
+  color: {r: 0.0509804, g: 0.39156866, b: 0.9137255, a: 1}
+  lightEmissionProbability: 1
+  lightEmissionOffset: 0
+  lightEmissionFrequency: 0
+  lightEmissionPhase: 0
+  dipoleAxis: {x: 0, y: 1, z: 0}
+  isMagnetic: 0
+  vortexAxis: {x: 0, y: -1, z: 0}
+  vortexRadialIntensity: 1
+  vortexDownstreamIntensity: 1
+  orbRadius: 10.12
+  orbSigma: 6.3
+  revolutionAxis: {x: 0, y: 1, z: 0}
+  revolutionPowerOfR: 1
+  noiseDeformerDisplacementIntensity: 0
+  noiseDeformerRotationIntensity: 0
+  noiseDeformerScaleIntensity: 0
+  noiseDeformerPulseIntensity: 0
+  axisConstraint: {x: 0, y: 0, z: 0}
+  velocityAlignmentStrength: 0
+  axisAlignmentStrength: 0
+  noiseFieldPositionIntensity: {x: 1, y: 1, z: 1}
+  noiseFieldPositionFrequency: 0
+  noiseFieldPositionSpeed: {x: 0, y: 0, z: 0}
+  scalerScale: {x: 1, y: 1, z: 1}
+  scalerNoiseFrequency: 0
+  scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  orientationAxis: {x: 0, y: 1, z: 0}
+  materialColor: {r: 1, g: 1, b: 1, a: 1}
+  materialMetallic: 0
+  materialSmoothness: 0
+  showGizmos: 1
+  activeUpdaterAndInfinite: {x: 0, y: 0, z: 0, w: 7}
+  data1: {x: 0.0509804, y: 0.39156866, z: 0.9137255, w: 1}
+  data2: {x: 1, y: 0, z: 0, w: 0}
+  data3: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &2148667332923699927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8726108694532312974}
+  - component: {fileID: 2804144934938837009}
+  m_Layer: 0
+  m_Name: Chillsource2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8726108694532312974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2148667332923699927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5, y: -5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7068517250560385708}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2804144934938837009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2148667332923699927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba005b6d48e15f45bac54ba31b0174f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updater: 8
+  particleSystemList:
+  - {fileID: 7068517250560385709}
+  active: 1
+  infiniteInX: 0
+  infiniteInY: 0
+  infiniteInZ: 0
+  radius: 10
+  falloff: 1
+  intensity: -6.54
+  useTransformRotation: 0
+  gravityDirection: {x: 0, y: -1, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  lightEmissionProbability: 1
+  lightEmissionOffset: 0
+  lightEmissionFrequency: 0
+  lightEmissionPhase: 0
+  dipoleAxis: {x: 0, y: 1, z: 0}
+  isMagnetic: 0
+  vortexAxis: {x: 0, y: -1, z: 0}
+  vortexRadialIntensity: 1
+  vortexDownstreamIntensity: 1
+  orbRadius: 9.94
+  orbSigma: 3.51
+  revolutionAxis: {x: 0, y: 1, z: 0}
+  revolutionPowerOfR: 1
+  noiseDeformerDisplacementIntensity: 0
+  noiseDeformerRotationIntensity: 0
+  noiseDeformerScaleIntensity: 0
+  noiseDeformerPulseIntensity: 0
+  axisConstraint: {x: 0, y: 0, z: 0}
+  velocityAlignmentStrength: 0
+  axisAlignmentStrength: 0
+  noiseFieldPositionIntensity: {x: 1, y: 1, z: 1}
+  noiseFieldPositionFrequency: 0
+  noiseFieldPositionSpeed: {x: 0, y: 0, z: 0}
+  scalerScale: {x: 1, y: 1, z: 1}
+  scalerNoiseFrequency: 0
+  scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  orientationAxis: {x: 0, y: 1, z: 0}
+  materialColor: {r: 1, g: 1, b: 1, a: 1}
+  materialMetallic: 0
+  materialSmoothness: 0
+  showGizmos: 1
+  activeUpdaterAndInfinite: {x: 0, y: 0, z: 0, w: 9}
+  data1: {x: 3.51, y: 9.94, z: 0, w: 0}
+  data2: {x: 0, y: 0, z: 0, w: 0}
+  data3: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &2295338814890319530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7312879089690482817}
+  - component: {fileID: 7380429783573803910}
+  m_Layer: 0
+  m_Name: Chillsource7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7312879089690482817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2295338814890319530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 5, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7068517250560385708}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7380429783573803910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2295338814890319530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba005b6d48e15f45bac54ba31b0174f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updater: 8
+  particleSystemList:
+  - {fileID: 7068517250560385709}
+  active: 1
+  infiniteInX: 0
+  infiniteInY: 0
+  infiniteInZ: 0
+  radius: 10
+  falloff: 1
+  intensity: -6.54
+  useTransformRotation: 0
+  gravityDirection: {x: 0, y: -1, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  lightEmissionProbability: 1
+  lightEmissionOffset: 0
+  lightEmissionFrequency: 0
+  lightEmissionPhase: 0
+  dipoleAxis: {x: 0, y: 1, z: 0}
+  isMagnetic: 0
+  vortexAxis: {x: 0, y: -1, z: 0}
+  vortexRadialIntensity: 1
+  vortexDownstreamIntensity: 1
+  orbRadius: 9.94
+  orbSigma: 3.51
+  revolutionAxis: {x: 0, y: 1, z: 0}
+  revolutionPowerOfR: 1
+  noiseDeformerDisplacementIntensity: 0
+  noiseDeformerRotationIntensity: 0
+  noiseDeformerScaleIntensity: 0
+  noiseDeformerPulseIntensity: 0
+  axisConstraint: {x: 0, y: 0, z: 0}
+  velocityAlignmentStrength: 0
+  axisAlignmentStrength: 0
+  noiseFieldPositionIntensity: {x: 1, y: 1, z: 1}
+  noiseFieldPositionFrequency: 0
+  noiseFieldPositionSpeed: {x: 0, y: 0, z: 0}
+  scalerScale: {x: 1, y: 1, z: 1}
+  scalerNoiseFrequency: 0
+  scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  orientationAxis: {x: 0, y: 1, z: 0}
+  materialColor: {r: 1, g: 1, b: 1, a: 1}
+  materialMetallic: 0
+  materialSmoothness: 0
+  showGizmos: 1
+  activeUpdaterAndInfinite: {x: 0, y: 0, z: 0, w: 9}
+  data1: {x: 3.51, y: 9.94, z: 0, w: 0}
+  data2: {x: 0, y: 0, z: 0, w: 0}
+  data3: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3798637702768453053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1371020061745174265}
+  - component: {fileID: 4166619665907859439}
+  m_Layer: 0
+  m_Name: Chillsource8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1371020061745174265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798637702768453053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7068517250560385708}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4166619665907859439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798637702768453053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba005b6d48e15f45bac54ba31b0174f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updater: 8
+  particleSystemList:
+  - {fileID: 7068517250560385709}
+  active: 1
+  infiniteInX: 0
+  infiniteInY: 0
+  infiniteInZ: 0
+  radius: 10
+  falloff: 1
+  intensity: -6.54
+  useTransformRotation: 0
+  gravityDirection: {x: 0, y: -1, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  lightEmissionProbability: 1
+  lightEmissionOffset: 0
+  lightEmissionFrequency: 0
+  lightEmissionPhase: 0
+  dipoleAxis: {x: 0, y: 1, z: 0}
+  isMagnetic: 0
+  vortexAxis: {x: 0, y: -1, z: 0}
+  vortexRadialIntensity: 1
+  vortexDownstreamIntensity: 1
+  orbRadius: 9.94
+  orbSigma: 3.51
+  revolutionAxis: {x: 0, y: 1, z: 0}
+  revolutionPowerOfR: 1
+  noiseDeformerDisplacementIntensity: 0
+  noiseDeformerRotationIntensity: 0
+  noiseDeformerScaleIntensity: 0
+  noiseDeformerPulseIntensity: 0
+  axisConstraint: {x: 0, y: 0, z: 0}
+  velocityAlignmentStrength: 0
+  axisAlignmentStrength: 0
+  noiseFieldPositionIntensity: {x: 1, y: 1, z: 1}
+  noiseFieldPositionFrequency: 0
+  noiseFieldPositionSpeed: {x: 0, y: 0, z: 0}
+  scalerScale: {x: 1, y: 1, z: 1}
+  scalerNoiseFrequency: 0
+  scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  orientationAxis: {x: 0, y: 1, z: 0}
+  materialColor: {r: 1, g: 1, b: 1, a: 1}
+  materialMetallic: 0
+  materialSmoothness: 0
+  showGizmos: 1
+  activeUpdaterAndInfinite: {x: 0, y: 0, z: 0, w: 9}
+  data1: {x: 3.51, y: 9.94, z: 0, w: 0}
+  data2: {x: 0, y: 0, z: 0, w: 0}
+  data3: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &5865540746408808020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733448499016278018}
+  - component: {fileID: 4591223921502104959}
+  m_Layer: 0
+  m_Name: Chillsource4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733448499016278018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5865540746408808020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5, y: 5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7068517250560385708}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4591223921502104959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5865540746408808020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba005b6d48e15f45bac54ba31b0174f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updater: 8
+  particleSystemList:
+  - {fileID: 7068517250560385709}
+  active: 1
+  infiniteInX: 0
+  infiniteInY: 0
+  infiniteInZ: 0
+  radius: 10
+  falloff: 1
+  intensity: -6.54
+  useTransformRotation: 0
+  gravityDirection: {x: 0, y: -1, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  lightEmissionProbability: 1
+  lightEmissionOffset: 0
+  lightEmissionFrequency: 0
+  lightEmissionPhase: 0
+  dipoleAxis: {x: 0, y: 1, z: 0}
+  isMagnetic: 0
+  vortexAxis: {x: 0, y: -1, z: 0}
+  vortexRadialIntensity: 1
+  vortexDownstreamIntensity: 1
+  orbRadius: 9.94
+  orbSigma: 3.51
+  revolutionAxis: {x: 0, y: 1, z: 0}
+  revolutionPowerOfR: 1
+  noiseDeformerDisplacementIntensity: 0
+  noiseDeformerRotationIntensity: 0
+  noiseDeformerScaleIntensity: 0
+  noiseDeformerPulseIntensity: 0
+  axisConstraint: {x: 0, y: 0, z: 0}
+  velocityAlignmentStrength: 0
+  axisAlignmentStrength: 0
+  noiseFieldPositionIntensity: {x: 1, y: 1, z: 1}
+  noiseFieldPositionFrequency: 0
+  noiseFieldPositionSpeed: {x: 0, y: 0, z: 0}
+  scalerScale: {x: 1, y: 1, z: 1}
+  scalerNoiseFrequency: 0
+  scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  orientationAxis: {x: 0, y: 1, z: 0}
+  materialColor: {r: 1, g: 1, b: 1, a: 1}
+  materialMetallic: 0
+  materialSmoothness: 0
+  showGizmos: 1
+  activeUpdaterAndInfinite: {x: 0, y: 0, z: 0, w: 9}
+  data1: {x: 3.51, y: 9.94, z: 0, w: 0}
+  data2: {x: 0, y: 0, z: 0, w: 0}
+  data3: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &6879795171552457442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3985315534451560977}
+  - component: {fileID: 6510707582640957729}
+  m_Layer: 0
+  m_Name: Chillsource6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3985315534451560977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6879795171552457442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: -5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7068517250560385708}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6510707582640957729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6879795171552457442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba005b6d48e15f45bac54ba31b0174f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updater: 8
+  particleSystemList:
+  - {fileID: 7068517250560385709}
+  active: 1
+  infiniteInX: 0
+  infiniteInY: 0
+  infiniteInZ: 0
+  radius: 10
+  falloff: 1
+  intensity: -6.54
+  useTransformRotation: 0
+  gravityDirection: {x: 0, y: -1, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  lightEmissionProbability: 1
+  lightEmissionOffset: 0
+  lightEmissionFrequency: 0
+  lightEmissionPhase: 0
+  dipoleAxis: {x: 0, y: 1, z: 0}
+  isMagnetic: 0
+  vortexAxis: {x: 0, y: -1, z: 0}
+  vortexRadialIntensity: 1
+  vortexDownstreamIntensity: 1
+  orbRadius: 9.94
+  orbSigma: 3.51
+  revolutionAxis: {x: 0, y: 1, z: 0}
+  revolutionPowerOfR: 1
+  noiseDeformerDisplacementIntensity: 0
+  noiseDeformerRotationIntensity: 0
+  noiseDeformerScaleIntensity: 0
+  noiseDeformerPulseIntensity: 0
+  axisConstraint: {x: 0, y: 0, z: 0}
+  velocityAlignmentStrength: 0
+  axisAlignmentStrength: 0
+  noiseFieldPositionIntensity: {x: 1, y: 1, z: 1}
+  noiseFieldPositionFrequency: 0
+  noiseFieldPositionSpeed: {x: 0, y: 0, z: 0}
+  scalerScale: {x: 1, y: 1, z: 1}
+  scalerNoiseFrequency: 0
+  scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  orientationAxis: {x: 0, y: 1, z: 0}
+  materialColor: {r: 1, g: 1, b: 1, a: 1}
+  materialMetallic: 0
+  materialSmoothness: 0
+  showGizmos: 1
+  activeUpdaterAndInfinite: {x: 0, y: 0, z: 0, w: 9}
+  data1: {x: 3.51, y: 9.94, z: 0, w: 0}
+  data2: {x: 0, y: 0, z: 0, w: 0}
+  data3: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &7068517250560385698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7068517250560385708}
+  - component: {fileID: 7068517250560385709}
+  - component: {fileID: 2286162119449166911}
+  m_Layer: 0
+  m_Name: Alex Chillhedron 3 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7068517250560385708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7068517250560385698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7068517251764317043}
+  - {fileID: 8726108694532312974}
+  - {fileID: 7541910437389019902}
+  - {fileID: 733448499016278018}
+  - {fileID: 8039777688272564618}
+  - {fileID: 3985315534451560977}
+  - {fileID: 7312879089690482817}
+  - {fileID: 1371020061745174265}
+  - {fileID: 2405475578837001902}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7068517250560385709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7068517250560385698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3491fd385b35f149ab669b32775b69d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inputType: 0
+  _skinnedMeshList: []
+  _pointCloudsList:
+  - {fileID: 11400000, guid: 0e1ef457ba986224992504a1086272f6, type: 2}
+  _particleMesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  _particleScale: {x: 0.05, y: 0.02, z: 0.02}
+  _particleMaterial: {fileID: 2100000, guid: 89d5fd7c80ef63c41916ddbeb19876bd, type: 2}
+  _bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 20, y: 20, z: 20}
+  _randomSeed: 0
+  _sourcesList:
+  - {fileID: 7068517251764317042}
+  - {fileID: 2804144934938837009}
+  - {fileID: 2008973609919591883}
+  - {fileID: 4591223921502104959}
+  - {fileID: 5321271478648933932}
+  - {fileID: 6510707582640957729}
+  - {fileID: 7380429783573803910}
+  - {fileID: 4166619665907859439}
+  - {fileID: 8944920998303245688}
+  _currentInputIndex: 0
+  _enableInitUpdater: 0
+  _initMassMinMax: {x: 0.5, y: 1.5}
+  _initLocalScaleMinMax: {x: 1, y: 1}
+  _initBouncinessMinMax: {x: 1, y: 1}
+  _initCollisionDistance: 0
+  _initMetallicMinMax: {x: 0, y: 1}
+  _initSmoothnessMinMax: {x: 0, y: 1}
+  _initGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  _enableNoiseDeformerUpdater: 0
+  _noiseDeformerUseSources: 0
+  _noiseDeformerDisplacementByNoise: 0.125
+  _noiseDeformerRotationByNoise: 0.125
+  _noiseDeformerScaleByNoise: 0.1
+  _noiseDeformerScaleByPulse: 0.1
+  _noiseDeformerNoiseFrequency: 1
+  _noiseDeformerNoiseSpeed: {x: 0, y: 0.25, z: 0}
+  _noiseDeformerPulseProbability: 0
+  _noiseDeformerPulseSpeed: 2
+  _enableGravityUpdater: 0
+  _gravityUseGlobal: 0
+  _gravityDirection: {x: 0, y: -0.1, z: 0}
+  _enableNoiseFieldUpdater: 0
+  _noiseFieldUseGlobal: 1
+  _noiseFieldPositionFrequency: 1
+  _noiseFieldPositionIntensity: {x: 0.3, y: 0.3, z: 0.3}
+  _noiseFieldPositionSpeed: {x: 0.3, y: 0.3, z: 0.3}
+  _enableAttractionUpdater: 0
+  _enableDipolarUpdater: 1
+  _enableVortexUpdater: 0
+  _enableOrbUpdater: 1
+  _enableRevolutionUpdater: 0
+  _enableColliderUpdater: 0
+  _collidersList: []
+  _enableParticleEmissionUpdater: 1
+  _particleEmissionLifetime: 10
+  _particleEmissionBirthDuration: 0.5
+  _particleEmissionDeathDuration: 0.5
+  _enableOriginAttractionUpdater: 0
+  _originAttractionStrength: 2
+  _enableOriginInterpolationUpdater: 0
+  _originInterpolationEnabled: 0
+  _originInterpolationLoop: 0
+  _originInterpolationSwapInputBefore: 0
+  _originInterpolationDuration: 2
+  _originInterpolationCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _originInterpolationNoiseScale: 1
+  _originInterpolationNoiseIntensity: 0.1
+  _originInterpolationNoiseSpeed: 0.3
+  _enableGridConstraintUpdater: 1
+  _gridConstraintUseSources: 0
+  _gridResolution: {x: 5, y: 5, z: 5}
+  _gridStrength: 0.1043
+  _enableAxisConstraintUpdater: 0
+  _axisConstraintUseSources: 0
+  _axisConstraintFreezeX: 0
+  _axisConstraintFreezeY: 0
+  _axisConstraintFreezeZ: 0
+  _enableLightEmissionUpdater: 1
+  _lightEmissionClampNegative: 0
+  _lightEmissionUseGlobal: 0
+  _lightEmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  _lightEmissionProbability: 0.01
+  _lightEmissionRandomOffset: 0
+  _lightEmissionRandomOffsetFrequency: 0
+  _lightEmissionRandomOffsetPhase: 0
+  _lightEmissionIntensity: 10
+  _lightEmissionOffset: 0
+  _lightEmissionFrequency: 0
+  _lightEmissionPhase: 0
+  _lightEmissionJitter: 0
+  _enableScalerUpdater: 0
+  _scalerUseGlobal: 0
+  _scalerScale: {x: 1, y: 1, z: 1}
+  _scalerNoiseFrequency: 0
+  _scalerNoiseIntensity: 0
+  _scalerNoiseSpeed: {x: 2.92, y: 0, z: 0}
+  _enableOrientationUpdater: 0
+  _orientationUseSources: 0
+  _orientationAxis: {x: 0, y: 1, z: 0}
+  _orientationIntensity: 1
+  _enableMaterialUpdater: 0
+  _enableParticleUpdater: 1
+  _particleUpdateUseSources: 1
+  _particleUpdateDeceleration: 0.9883
+  _particleUpdateRotationSpeed: 0.1
+  _particleUpdateAlignWithVelocity: 1
+  _particleUpdateAlignmentVelocityStrength: 1
+  _particleUpdateAlignWithAxis: 0
+  _particleUpdateAlignmentAxis: {x: 0, y: 1, z: 0}
+  _particleUpdateAlignmentAxisStrength: 0
+  _compute: {fileID: 7200000, guid: 35ba6035930f60f4eb3b15dc159995e4, type: 3}
+--- !u!114 &2286162119449166911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7068517250560385698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3e36d7a7c23cc42b5282ae6e2ba7f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kappsDaddy: {fileID: 7068517250560385709}
+  chillOrbRadius: 9.94
+  chillOrbSigma: 3.51
+  chillOrbIntensity: -6.54
+  viscExtra: -1.17
+  gridStrengthPercentage: 10.43
+--- !u!1 &7068517251764317040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7068517251764317043}
+  - component: {fileID: 7068517251764317042}
+  m_Layer: 0
+  m_Name: Chillsource1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7068517251764317043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7068517251764317040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5, y: -5, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7068517250560385708}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7068517251764317042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7068517251764317040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba005b6d48e15f45bac54ba31b0174f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updater: 8
+  particleSystemList:
+  - {fileID: 7068517250560385709}
+  active: 1
+  infiniteInX: 0
+  infiniteInY: 0
+  infiniteInZ: 0
+  radius: 10
+  falloff: 1
+  intensity: -6.54
+  useTransformRotation: 0
+  gravityDirection: {x: 0, y: -1, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  lightEmissionProbability: 1
+  lightEmissionOffset: 0
+  lightEmissionFrequency: 0
+  lightEmissionPhase: 0
+  dipoleAxis: {x: 0, y: 1, z: 0}
+  isMagnetic: 0
+  vortexAxis: {x: 0, y: -1, z: 0}
+  vortexRadialIntensity: 1
+  vortexDownstreamIntensity: 1
+  orbRadius: 9.94
+  orbSigma: 3.51
+  revolutionAxis: {x: 0, y: 1, z: 0}
+  revolutionPowerOfR: 1
+  noiseDeformerDisplacementIntensity: 0
+  noiseDeformerRotationIntensity: 0
+  noiseDeformerScaleIntensity: 0
+  noiseDeformerPulseIntensity: 0
+  axisConstraint: {x: 0, y: 0, z: 0}
+  velocityAlignmentStrength: 0
+  axisAlignmentStrength: 0
+  noiseFieldPositionIntensity: {x: 1, y: 1, z: 1}
+  noiseFieldPositionFrequency: 0
+  noiseFieldPositionSpeed: {x: 0, y: 0, z: 0}
+  scalerScale: {x: 1, y: 1, z: 1}
+  scalerNoiseFrequency: 0
+  scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  orientationAxis: {x: 0, y: 1, z: 0}
+  materialColor: {r: 1, g: 1, b: 1, a: 1}
+  materialMetallic: 0
+  materialSmoothness: 0
+  showGizmos: 1
+  activeUpdaterAndInfinite: {x: 0, y: 0, z: 0, w: 9}
+  data1: {x: 3.51, y: 9.94, z: 0, w: 0}
+  data2: {x: 0, y: 0, z: 0, w: 0}
+  data3: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &7787772557412942262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8039777688272564618}
+  - component: {fileID: 5321271478648933932}
+  m_Layer: 0
+  m_Name: Chillsource5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8039777688272564618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7787772557412942262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: -5, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7068517250560385708}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5321271478648933932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7787772557412942262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba005b6d48e15f45bac54ba31b0174f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updater: 8
+  particleSystemList:
+  - {fileID: 7068517250560385709}
+  active: 1
+  infiniteInX: 0
+  infiniteInY: 0
+  infiniteInZ: 0
+  radius: 10
+  falloff: 1
+  intensity: -6.54
+  useTransformRotation: 0
+  gravityDirection: {x: 0, y: -1, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  lightEmissionProbability: 1
+  lightEmissionOffset: 0
+  lightEmissionFrequency: 0
+  lightEmissionPhase: 0
+  dipoleAxis: {x: 0, y: 1, z: 0}
+  isMagnetic: 0
+  vortexAxis: {x: 0, y: -1, z: 0}
+  vortexRadialIntensity: 1
+  vortexDownstreamIntensity: 1
+  orbRadius: 9.94
+  orbSigma: 3.51
+  revolutionAxis: {x: 0, y: 1, z: 0}
+  revolutionPowerOfR: 1
+  noiseDeformerDisplacementIntensity: 0
+  noiseDeformerRotationIntensity: 0
+  noiseDeformerScaleIntensity: 0
+  noiseDeformerPulseIntensity: 0
+  axisConstraint: {x: 0, y: 0, z: 0}
+  velocityAlignmentStrength: 0
+  axisAlignmentStrength: 0
+  noiseFieldPositionIntensity: {x: 1, y: 1, z: 1}
+  noiseFieldPositionFrequency: 0
+  noiseFieldPositionSpeed: {x: 0, y: 0, z: 0}
+  scalerScale: {x: 1, y: 1, z: 1}
+  scalerNoiseFrequency: 0
+  scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  orientationAxis: {x: 0, y: 1, z: 0}
+  materialColor: {r: 1, g: 1, b: 1, a: 1}
+  materialMetallic: 0
+  materialSmoothness: 0
+  showGizmos: 1
+  activeUpdaterAndInfinite: {x: 0, y: 0, z: 0, w: 9}
+  data1: {x: 3.51, y: 9.94, z: 0, w: 0}
+  data2: {x: 0, y: 0, z: 0, w: 0}
+  data3: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &7824621870062165222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7541910437389019902}
+  - component: {fileID: 2008973609919591883}
+  m_Layer: 0
+  m_Name: Chillsource3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7541910437389019902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824621870062165222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5, y: 5, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7068517250560385708}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2008973609919591883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824621870062165222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba005b6d48e15f45bac54ba31b0174f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updater: 8
+  particleSystemList:
+  - {fileID: 7068517250560385709}
+  active: 1
+  infiniteInX: 0
+  infiniteInY: 0
+  infiniteInZ: 0
+  radius: 10
+  falloff: 1
+  intensity: -6.54
+  useTransformRotation: 0
+  gravityDirection: {x: 0, y: -1, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  lightEmissionProbability: 1
+  lightEmissionOffset: 0
+  lightEmissionFrequency: 0
+  lightEmissionPhase: 0
+  dipoleAxis: {x: 0, y: 1, z: 0}
+  isMagnetic: 0
+  vortexAxis: {x: 0, y: -1, z: 0}
+  vortexRadialIntensity: 1
+  vortexDownstreamIntensity: 1
+  orbRadius: 9.94
+  orbSigma: 3.51
+  revolutionAxis: {x: 0, y: 1, z: 0}
+  revolutionPowerOfR: 1
+  noiseDeformerDisplacementIntensity: 0
+  noiseDeformerRotationIntensity: 0
+  noiseDeformerScaleIntensity: 0
+  noiseDeformerPulseIntensity: 0
+  axisConstraint: {x: 0, y: 0, z: 0}
+  velocityAlignmentStrength: 0
+  axisAlignmentStrength: 0
+  noiseFieldPositionIntensity: {x: 1, y: 1, z: 1}
+  noiseFieldPositionFrequency: 0
+  noiseFieldPositionSpeed: {x: 0, y: 0, z: 0}
+  scalerScale: {x: 1, y: 1, z: 1}
+  scalerNoiseFrequency: 0
+  scalerNoiseSpeed: {x: 0, y: 0, z: 0}
+  orientationAxis: {x: 0, y: 1, z: 0}
+  materialColor: {r: 1, g: 1, b: 1, a: 1}
+  materialMetallic: 0
+  materialSmoothness: 0
+  showGizmos: 1
+  activeUpdaterAndInfinite: {x: 0, y: 0, z: 0, w: 9}
+  data1: {x: 3.51, y: 9.94, z: 0, w: 0}
+  data2: {x: 0, y: 0, z: 0, w: 0}
+  data3: {x: 0, y: 0, z: 0, w: 0}

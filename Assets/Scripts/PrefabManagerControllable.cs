@@ -11,6 +11,12 @@ public class PrefabManagerControllable : Controllable
     }
 
     [OSCMethod]
+    public void ToggleOffAll()
+    {
+        (TargetScript as PrefabManager).ToggleOffAll();
+    }
+    
+    [OSCMethod]
     public void SetDirectionalIntensity(float value)
     {
         (TargetScript as PrefabManager).SetDirectionalIntensity(value);
@@ -33,5 +39,12 @@ public class PrefabManagerControllable : Controllable
     {
         (TargetScript as PrefabManager).SetBrownianMotionRotationIntensityValue(value);
     }
-    
+
+    [OSCMethod]
+    public void SetHueShift(float value)
+    {
+        (TargetScript as PrefabManager).SetHueShift(value);
+    }
+
 }
+

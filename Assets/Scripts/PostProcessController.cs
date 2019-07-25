@@ -24,6 +24,7 @@ public class PostProcessController : MonoBehaviour
     public float colorGradingPostExposure = 0;
     public float colorGradingSaturation = 0;
     public float colorGradingContrast = 0;
+    public float colorGradingHueShift = 0;
 
     [Header("Bloom")]
     public float bloomIntensity = 1;
@@ -71,6 +72,7 @@ public class PostProcessController : MonoBehaviour
             colorGradingPostExposure = colorGradingSettings.postExposure;
             colorGradingSaturation = colorGradingSettings.saturation;
             colorGradingContrast = colorGradingSettings.contrast;
+            colorGradingHueShift = colorGradingSettings.hueShift;
         }
     }
 
@@ -83,6 +85,7 @@ public class PostProcessController : MonoBehaviour
         UpdateColorGradingPostExposure(colorGradingPostExposure);
         UpdateColorGradingSaturation(colorGradingSaturation);
         UpdateColorGradingContrast(colorGradingContrast);
+        UpdateColorGradingHueShift(colorGradingHueShift);
     }
 
     /*** BLOOM ***/
@@ -109,6 +112,12 @@ public class PostProcessController : MonoBehaviour
     {
         if (hasColorGrading)
             colorGradingSettings.postExposure.Override(newValue);
+    }
+
+    public void UpdateColorGradingHueShift(float newValue)
+    {
+        if (hasColorGrading)
+            colorGradingSettings.hueShift.Override(newValue);
     }
 
     public void UpdateColorGradingSaturation(float newValue)

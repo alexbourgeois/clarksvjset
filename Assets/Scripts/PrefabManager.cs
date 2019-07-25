@@ -27,6 +27,12 @@ public class PrefabManager : MonoBehaviour
         ppController.UpdateBloomIntensity(ppController.bloomIntensity);
     }
 
+    public void SetHueShift(float value)
+    {
+        ppController.colorGradingHueShift = value;
+        ppController.UpdateColorGradingHueShift(ppController.colorGradingHueShift);
+    }
+
     public void SetBrownianMotionPositionIntensityValue(float value)
     {
         brownian.positionAmplitude = value;
@@ -37,6 +43,13 @@ public class PrefabManager : MonoBehaviour
         brownian.rotationAmplitude = value;
     }
 
+    public void ToggleOffAll()
+    {
+        for(var i=0; i<transform.childCount; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {

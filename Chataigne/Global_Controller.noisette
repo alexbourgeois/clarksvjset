@@ -25,7 +25,7 @@
         "values": {
           "parameters": [
             {
-              "value": 127,
+              "value": 12,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -39,7 +39,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 37,
+              "value": 19,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -49,6 +49,62 @@
               "customizable": false,
               "removable": true,
               "description": "Channel 1 : CC1",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 5,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc16",
+              "type": "Integer",
+              "niceName": "[1] CC16",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC16",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 3,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc17",
+              "type": "Integer",
+              "niceName": "[1] CC17",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC17",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc18",
+              "type": "Integer",
+              "niceName": "[1] CC18",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC18",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc19",
+              "type": "Integer",
+              "niceName": "[1] CC19",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC19",
               "hideInEditor": false,
               "feedbackOnly": false
             },
@@ -67,7 +123,21 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 2,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc20",
+              "type": "Integer",
+              "niceName": "[1] CC20",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC20",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 10,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -81,7 +151,35 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 40,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc22",
+              "type": "Integer",
+              "niceName": "[1] CC22",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC22",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 8,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc23",
+              "type": "Integer",
+              "niceName": "[1] CC23",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC23",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 2,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -193,7 +291,21 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc39",
+              "type": "Integer",
+              "niceName": "[1] CC39",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC39",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 4,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -203,6 +315,104 @@
               "customizable": false,
               "removable": true,
               "description": "Channel 1 : CC4",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc41",
+              "type": "Integer",
+              "niceName": "[1] CC41",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC41",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc42",
+              "type": "Integer",
+              "niceName": "[1] CC42",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC42",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc43",
+              "type": "Integer",
+              "niceName": "[1] CC43",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC43",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc44",
+              "type": "Integer",
+              "niceName": "[1] CC44",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC44",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc45",
+              "type": "Integer",
+              "niceName": "[1] CC45",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC45",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc46",
+              "type": "Integer",
+              "niceName": "[1] CC46",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC46",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc48",
+              "type": "Integer",
+              "niceName": "[1] CC48",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC48",
               "hideInEditor": false,
               "feedbackOnly": false
             },
@@ -221,7 +431,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 61,
               "controlMode": 0,
               "minValue": 0,
               "maxValue": 127,
@@ -231,6 +441,146 @@
               "customizable": false,
               "removable": true,
               "description": "Channel 1 : CC5",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc50",
+              "type": "Integer",
+              "niceName": "[1] CC50",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC50",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc51",
+              "type": "Integer",
+              "niceName": "[1] CC51",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC51",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc52",
+              "type": "Integer",
+              "niceName": "[1] CC52",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC52",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc58",
+              "type": "Integer",
+              "niceName": "[1] CC58",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC58",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc59",
+              "type": "Integer",
+              "niceName": "[1] CC59",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC59",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 42,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc6",
+              "type": "Integer",
+              "niceName": "[1] CC6",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC6",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc60",
+              "type": "Integer",
+              "niceName": "[1] CC60",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC60",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc64",
+              "type": "Integer",
+              "niceName": "[1] CC64",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC64",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc67",
+              "type": "Integer",
+              "niceName": "[1] CC67",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC67",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 70,
+              "controlMode": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "controlAddress": "/_1_cc7",
+              "type": "Integer",
+              "niceName": "[1] CC7",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC7",
               "hideInEditor": false,
               "feedbackOnly": false
             }
@@ -291,11 +641,19 @@
         "parameters": [
           {
             "value": [
-              -385.0,
-              -205.0
+              -583.0,
+              -214.0
             ],
             "controlMode": 0,
             "controlAddress": "/viewUIPosition"
+          },
+          {
+            "value": [
+              251.0,
+              408.0
+            ],
+            "controlMode": 0,
+            "controlAddress": "/viewUISize"
           },
           {
             "value": true,
@@ -307,6 +665,98 @@
         "type": "State",
         "processors": {
           "items": [
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    20.0,
+                    20.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TOGGLE OFF ALL",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ],
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlMode": 0,
+                        "controlAddress": "/isValid"
+                      },
+                      {
+                        "value": "/modules/midi/values/_1_cc42",
+                        "controlMode": 0,
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": "=",
+                          "controlMode": 0,
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 127,
+                          "controlMode": 0,
+                          "controlAddress": "/reference"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/ToggleOffAll",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
             {
               "parameters": [
                 {
@@ -1068,6 +1518,556 @@
               },
               "consequencesOff": {
               }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    140.0,
+                    140.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab 7",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ],
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlMode": 0,
+                        "controlAddress": "/isValid"
+                      },
+                      {
+                        "value": "/modules/midi/values/_1_cc39",
+                        "controlMode": 0,
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": "=",
+                          "controlMode": 0,
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 127,
+                          "controlMode": 0,
+                          "controlAddress": "/reference"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 7,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 7,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab7/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    160.0,
+                    160.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab 8",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ],
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlMode": 0,
+                        "controlAddress": "/isValid"
+                      },
+                      {
+                        "value": "/modules/midi/values/_1_cc48",
+                        "controlMode": 0,
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": "=",
+                          "controlMode": 0,
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 127,
+                          "controlMode": 0,
+                          "controlAddress": "/reference"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 8,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 8,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab8/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    180.0,
+                    180.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab 9",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ],
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlMode": 0,
+                        "controlAddress": "/isValid"
+                      },
+                      {
+                        "value": "/modules/midi/values/_1_cc49",
+                        "controlMode": 0,
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": "=",
+                          "controlMode": 0,
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 127,
+                          "controlMode": 0,
+                          "controlAddress": "/reference"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 9,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 9,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab9/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    200.0,
+                    200.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab 10",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ],
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlMode": 0,
+                        "controlAddress": "/isValid"
+                      },
+                      {
+                        "value": "/modules/midi/values/_1_cc50",
+                        "controlMode": 0,
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": "=",
+                          "controlMode": 0,
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 127,
+                          "controlMode": 0,
+                          "controlAddress": "/reference"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 10,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 10,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab10/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlMode": 0,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    220.0,
+                    220.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                }
+              ],
+              "niceName": "TogglePrefab 11",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlMode": 0,
+                    "controlAddress": "/isValid"
+                  },
+                  {
+                    "value": 0.0,
+                    "controlMode": 0,
+                    "controlAddress": "/progress"
+                  }
+                ],
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlMode": 0,
+                        "controlAddress": "/isValid"
+                      },
+                      {
+                        "value": "/modules/midi/values/_1_cc51",
+                        "controlMode": 0,
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": "=",
+                          "controlMode": 0,
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 127,
+                          "controlMode": 0,
+                          "controlAddress": "/reference"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "consequences": {
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/TogglePrefab",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 11,
+                                "controlMode": 0,
+                                "controlAddress": "/newIntParameter"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Integer",
+                            "param": {
+                              "value": 11,
+                              "controlMode": 0,
+                              "controlAddress": "/states/prefabToggle/processors/togglePrefab11/consequences_true/consequence/command/arguments/_1/newIntParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "consequencesOff": {
+              }
             }
           ]
         }
@@ -1076,8 +2076,8 @@
         "parameters": [
           {
             "value": [
-              -91.0,
-              -209.0
+              -50.0,
+              -214.0
             ],
             "controlMode": 0,
             "controlAddress": "/viewUIPosition"
@@ -1103,7 +2103,7 @@
             {
               "parameters": [
                 {
-                  "value": 2.0,
+                  "value": 0.188976377248764,
                   "controlMode": 0,
                   "controlAddress": "/outValue"
                 }
@@ -1125,7 +2125,7 @@
                   {
                     "parameters": [
                       {
-                        "value": 2.0,
+                        "value": 0.188976377248764,
                         "controlMode": 0,
                         "controlAddress": "/out"
                       }
@@ -1178,7 +2178,7 @@
                           {
                             "parameters": [
                               {
-                                "value": 2.0,
+                                "value": 0.188976377248764,
                                 "controlMode": 0,
                                 "controlAddress": "/_1"
                               },
@@ -1191,7 +2191,7 @@
                             "niceName": "#1",
                             "type": "Float",
                             "param": {
-                              "value": 2.0,
+                              "value": 0.188976377248764,
                               "controlMode": 0,
                               "controlAddress": "/states/divers/processors/setLightIntensity/outputs/mappingOutput/command/arguments/_1/_1"
                             }
@@ -1214,7 +2214,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-                  "value": 1.456692934036255,
+                  "value": 0.7480314970016479,
                   "controlMode": 0,
                   "controlAddress": "/outValue"
                 }
@@ -1236,7 +2236,7 @@
                   {
                     "parameters": [
                       {
-                        "value": 1.456692934036255,
+                        "value": 0.7480314970016479,
                         "controlMode": 0,
                         "controlAddress": "/out"
                       }
@@ -1289,7 +2289,7 @@
                           {
                             "parameters": [
                               {
-                                "value": 1.456692934036255,
+                                "value": 0.7480314970016479,
                                 "controlMode": 0,
                                 "controlAddress": "/newFloatParameter"
                               },
@@ -1302,9 +2302,120 @@
                             "niceName": "#1",
                             "type": "Float",
                             "param": {
-                              "value": 1.456692934036255,
+                              "value": 0.7480314970016479,
                               "controlMode": 0,
                               "controlAddress": "/states/divers/processors/setBloomIntensity/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    40.0,
+                    40.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": -66.61417388916016,
+                  "controlMode": 0,
+                  "controlAddress": "/outValue"
+                }
+              ],
+              "niceName": "SettHueShift",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "input": {
+                "parameters": [
+                  {
+                    "value": "/modules/midi/values/_1_cc22",
+                    "controlMode": 0,
+                    "controlAddress": "/inputValue"
+                  }
+                ]
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": -66.61417388916016,
+                        "controlMode": 0,
+                        "controlAddress": "/out"
+                      }
+                    ],
+                    "niceName": "Remap",
+                    "type": "Remap",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/inputMin_Max"
+                        },
+                        {
+                          "value": [
+                            -180.0,
+                            180.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/targetMin_Max"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/PrefabManager/SetHueShift",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": -66.61417388916016,
+                                "controlMode": 0,
+                                "controlAddress": "/newFloatParameter"
+                              },
+                              {
+                                "value": true,
+                                "controlMode": 0,
+                                "controlAddress": "/useForMapping"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Float",
+                            "param": {
+                              "value": -66.61417388916016,
+                              "controlMode": 0,
+                              "controlAddress": "/states/divers/processors/settHueShift/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
                             }
                           }
                         ]
@@ -1436,7 +2547,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-                  "value": 10.0,
+                  "value": 0.15748031437397,
                   "controlMode": 0,
                   "controlAddress": "/outValue"
                 }
@@ -1458,7 +2569,7 @@
                   {
                     "parameters": [
                       {
-                        "value": 10.0,
+                        "value": 0.15748031437397,
                         "controlMode": 0,
                         "controlAddress": "/out"
                       }
@@ -1511,7 +2622,7 @@
                           {
                             "parameters": [
                               {
-                                "value": 10.0,
+                                "value": 0.15748031437397,
                                 "controlMode": 0,
                                 "controlAddress": "/newFloatParameter"
                               },
@@ -1524,9 +2635,698 @@
                             "niceName": "#1",
                             "type": "Float",
                             "param": {
-                              "value": 10.0,
+                              "value": 0.15748031437397,
                               "controlMode": 0,
                               "controlAddress": "/states/divers/processors/setBrownianMotionRotationIntensityValue/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "parameters": [
+          {
+            "value": [
+              -316.0,
+              -214.0
+            ],
+            "controlMode": 0,
+            "controlAddress": "/viewUIPosition"
+          },
+          {
+            "value": true,
+            "controlMode": 0,
+            "controlAddress": "/active"
+          }
+        ],
+        "niceName": "Global",
+        "type": "State",
+        "processors": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": [
+                    40.0,
+                    40.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": 0.03937007859349251,
+                  "controlMode": 0,
+                  "controlAddress": "/outValue"
+                }
+              ],
+              "niceName": "scanLineJitter",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "input": {
+                "parameters": [
+                  {
+                    "value": "/modules/midi/values/_1_cc16",
+                    "controlMode": 0,
+                    "controlAddress": "/inputValue"
+                  }
+                ]
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.03937007859349251,
+                        "controlMode": 0,
+                        "controlAddress": "/out"
+                      }
+                    ],
+                    "niceName": "Remap",
+                    "type": "Remap",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/inputMin_Max"
+                        },
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/targetMin_Max"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/AnalogGlitch/scanLineJitter",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0.03937007859349251,
+                                "controlMode": 0,
+                                "controlAddress": "/newFloatParameter"
+                              },
+                              {
+                                "value": true,
+                                "controlMode": 0,
+                                "controlAddress": "/useForMapping"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Float",
+                            "param": {
+                              "value": 0.03937007859349251,
+                              "controlMode": 0,
+                              "controlAddress": "/states/global/processors/scanLineJitter/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    60.0,
+                    60.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": 0.0236220471560955,
+                  "controlMode": 0,
+                  "controlAddress": "/outValue"
+                }
+              ],
+              "niceName": "verticalJump",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "input": {
+                "parameters": [
+                  {
+                    "value": "/modules/midi/values/_1_cc17",
+                    "controlMode": 0,
+                    "controlAddress": "/inputValue"
+                  }
+                ]
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.0236220471560955,
+                        "controlMode": 0,
+                        "controlAddress": "/out"
+                      }
+                    ],
+                    "niceName": "Remap",
+                    "type": "Remap",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/inputMin_Max"
+                        },
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/targetMin_Max"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/AnalogGlitch/verticalJump",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0.0236220471560955,
+                                "controlMode": 0,
+                                "controlAddress": "/newFloatParameter"
+                              },
+                              {
+                                "value": true,
+                                "controlMode": 0,
+                                "controlAddress": "/useForMapping"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Float",
+                            "param": {
+                              "value": 0.0236220471560955,
+                              "controlMode": 0,
+                              "controlAddress": "/states/global/processors/verticalJump/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    80.0,
+                    80.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": 0.0,
+                  "controlMode": 0,
+                  "controlAddress": "/outValue"
+                }
+              ],
+              "niceName": "horizontalShake",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "input": {
+                "parameters": [
+                  {
+                    "value": "/modules/midi/values/_1_cc18",
+                    "controlMode": 0,
+                    "controlAddress": "/inputValue"
+                  }
+                ]
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.0,
+                        "controlMode": 0,
+                        "controlAddress": "/out"
+                      }
+                    ],
+                    "niceName": "Remap",
+                    "type": "Remap",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/inputMin_Max"
+                        },
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/targetMin_Max"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/AnalogGlitch/horizontalShake",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0.0,
+                                "controlMode": 0,
+                                "controlAddress": "/newFloatParameter"
+                              },
+                              {
+                                "value": true,
+                                "controlMode": 0,
+                                "controlAddress": "/useForMapping"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Float",
+                            "param": {
+                              "value": 0.0,
+                              "controlMode": 0,
+                              "controlAddress": "/states/global/processors/horizontalShake/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    100.0,
+                    100.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": 0.0,
+                  "controlMode": 0,
+                  "controlAddress": "/outValue"
+                }
+              ],
+              "niceName": "colorDrift",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "input": {
+                "parameters": [
+                  {
+                    "value": "/modules/midi/values/_1_cc19",
+                    "controlMode": 0,
+                    "controlAddress": "/inputValue"
+                  }
+                ]
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.0,
+                        "controlMode": 0,
+                        "controlAddress": "/out"
+                      }
+                    ],
+                    "niceName": "Remap",
+                    "type": "Remap",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/inputMin_Max"
+                        },
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/targetMin_Max"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/AnalogGlitch/colorDrift",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0.0,
+                                "controlMode": 0,
+                                "controlAddress": "/newFloatParameter"
+                              },
+                              {
+                                "value": true,
+                                "controlMode": 0,
+                                "controlAddress": "/useForMapping"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Float",
+                            "param": {
+                              "value": 0.0,
+                              "controlMode": 0,
+                              "controlAddress": "/states/global/processors/colorDrift/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    120.0,
+                    120.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": 0.015748031437397,
+                  "controlMode": 0,
+                  "controlAddress": "/outValue"
+                }
+              ],
+              "niceName": "digitalIntensity",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "input": {
+                "parameters": [
+                  {
+                    "value": "/modules/midi/values/_1_cc20",
+                    "controlMode": 0,
+                    "controlAddress": "/inputValue"
+                  }
+                ]
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.015748031437397,
+                        "controlMode": 0,
+                        "controlAddress": "/out"
+                      }
+                    ],
+                    "niceName": "Remap",
+                    "type": "Remap",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/inputMin_Max"
+                        },
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/targetMin_Max"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/DigitalGlitch/intensity",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0.015748031437397,
+                                "controlMode": 0,
+                                "controlAddress": "/newFloatParameter"
+                              },
+                              {
+                                "value": true,
+                                "controlMode": 0,
+                                "controlAddress": "/useForMapping"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Float",
+                            "param": {
+                              "value": 0.015748031437397,
+                              "controlMode": 0,
+                              "controlAddress": "/states/global/processors/digitalIntensity/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    140.0,
+                    140.0
+                  ],
+                  "controlMode": 0,
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": 0.3937007784843445,
+                  "controlMode": 0,
+                  "controlAddress": "/outValue"
+                }
+              ],
+              "niceName": "timeScale",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "input": {
+                "parameters": [
+                  {
+                    "value": "/modules/midi/values/_1_cc21",
+                    "controlMode": 0,
+                    "controlAddress": "/inputValue"
+                  }
+                ]
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.3937007784843445,
+                        "controlMode": 0,
+                        "controlAddress": "/out"
+                      }
+                    ],
+                    "niceName": "Remap",
+                    "type": "Remap",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/inputMin_Max"
+                        },
+                        {
+                          "value": [
+                            0.0,
+                            5.0
+                          ],
+                          "controlMode": 0,
+                          "controlAddress": "/targetMin_Max"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "osc",
+                    "commandPath": "",
+                    "commandType": "Custom Message",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/OCF/GlobalSettings/timeScale",
+                          "controlMode": 0,
+                          "controlAddress": "/address"
+                        }
+                      ],
+                      "arguments": {
+                      },
+                      "argManager": {
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": 0.3937007784843445,
+                                "controlMode": 0,
+                                "controlAddress": "/newFloatParameter"
+                              },
+                              {
+                                "value": true,
+                                "controlMode": 0,
+                                "controlAddress": "/useForMapping"
+                              }
+                            ],
+                            "niceName": "#1",
+                            "type": "Float",
+                            "param": {
+                              "value": 0.3937007784843445,
+                              "controlMode": 0,
+                              "controlAddress": "/states/global/processors/timeScale/outputs/mappingOutput/command/arguments/_1/newFloatParameter"
                             }
                           }
                         ]

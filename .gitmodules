@@ -7,3 +7,6 @@
 [submodule "Assets/Plugins/GenUI"]
 	path = Assets/Plugins/GenUI
 	url = https://github.com/theoriz/genui
+[submodule "Assets/Plugins/Shared-Texture"]
+	path = Assets/Plugins/Shared-Texture
+	url = https://github.com/theoriz/shared-texture-unity
